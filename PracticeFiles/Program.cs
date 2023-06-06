@@ -14,9 +14,13 @@ namespace PracticeFiles
             //Constructore con=new Constructore();
             //Constructore con2 = new Constructore(101, "Priyanka");
             //con2.display();
-            Programmer p1 = new Programmer();
-            Console.WriteLine("salary:"+p1.salary);
-            Console.WriteLine("Bounus:" +p1.bonus);
+            //Programmer p1 = new Programmer();
+            //Console.WriteLine("salary:"+p1.salary);
+            //Console.WriteLine("Bounus:" +p1.bonus);
+            BabyDog bd = new BabyDog();
+            bd.eat();
+            bd.bark();
+            bd.weep();
  
         }
     }
