@@ -17,10 +17,16 @@ namespace PracticeFiles
             //Programmer p1 = new Programmer();
             //Console.WriteLine("salary:"+p1.salary);
             //Console.WriteLine("Bounus:" +p1.bonus);
-            BabyDog bd = new BabyDog();
-            bd.eat();
-            bd.bark();
-            bd.weep();
+            //BabyDog bd = new BabyDog();
+            //bd.eat();
+            //bd.bark();
+            //bd.weep();
+            Dog1 d = new Dog1();
+            d.name = "Swaggy";
+            d.dogname();
+            bird b = new bird();
+            b.name = "Parrot";
+            b.birdname();
  
         }
     }
