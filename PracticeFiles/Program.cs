@@ -7,9 +7,13 @@ namespace PracticeFiles
     {
         static void Main(string[] args)
         {
-            OopsProgram1 p1 = new OopsProgram1();
-            p1.insert(101, "Priyanka");
-            p1.display();
+            //OopsProgram1 p1 = new OopsProgram1();
+            //p1.insert(101, "Priyanka");
+            //p1.display();
+            Constructore con=new Constructore();
+            Constructore con2 = new Constructore(101, "Priyanka");
+            con2.display();
+ 
         }
     }
 }
