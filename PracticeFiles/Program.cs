@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PracticeFiles.ClassesAndObjects;
+using System;
 
 namespace PracticeFiles
 {
@@ -6,7 +7,9 @@ namespace PracticeFiles
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            OopsProgram1 p1 = new OopsProgram1();
+            p1.insert(101, "Priyanka");
+            p1.display();
         }
     }
 }
