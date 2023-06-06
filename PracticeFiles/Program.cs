@@ -20,14 +20,15 @@ namespace PracticeFiles
             //BabyDog bd = new BabyDog();
             //bd.eat();
             //bd.bark();
-            //bd.weep();
-            Dog1 d = new Dog1();
-            d.name = "Swaggy";
-            d.dogname();
-            bird b = new bird();
-            b.name = "Parrot";
-            b.birdname();
- 
+            ////bd.weep();
+            //Dog1 d = new Dog1();
+            //d.name = "Swaggy";
+            //d.dogname();
+            //bird b = new bird();
+            //b.name = "Parrot";
+            //b.birdname();
+            Dog2 d = new Dog2();
+            d.eat();
         }
     }
 }
