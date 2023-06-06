@@ -1,4 +1,5 @@
-﻿using PracticeFiles.ClassesAndObjects;
+﻿using PracticeFiles.Abstraction;
+using PracticeFiles.ClassesAndObjects;
 using PracticeFiles.Inheritance;
 using System;
 
@@ -27,8 +28,10 @@ namespace PracticeFiles
             //bird b = new bird();
             //b.name = "Parrot";
             //b.birdname();
-            Dog2 d = new Dog2();
-            d.eat();
+            //Dog2 d = new Dog2();
+            //d.eat();
+           World1 world1 = new World1();
+            world1.add(5,3);
         }
     }
 }
